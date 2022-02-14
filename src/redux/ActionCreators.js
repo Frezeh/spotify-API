@@ -13,7 +13,7 @@ export const addMyLibrary = (token, track) => async (dispatch) => {
       headers: {
         Authorization: `Bearer ${token}`,
         params: {
-          q: id,
+          q: "382ObEPsp2rxGrnsizN5TX",
         },
       },
     });
@@ -46,7 +46,7 @@ export const addNewReleaseLibrary = (token, news) => async (dispatch) => {
       headers: {
         Authorization: `Bearer ${token}`,
         params: {
-          q: [id],
+          q: "382ObEPsp2rxGrnsizN5TX",
         },
       },
     });
@@ -64,7 +64,7 @@ export const removeLibrary = (token, news) => async (dispatch) => {
       headers: {
         Authorization: `Bearer ${token}`,
         params: {
-          q: id,
+          q: "382ObEPsp2rxGrnsizN5TX",
         },
       },
     });
